@@ -16,7 +16,7 @@
     printf("%d\n", sum);
 }*/
 
-void factorial(){
+/*void factorial(){
     int a;
     long long sum=1;
     printf("Enter a number:\n");
@@ -25,12 +25,21 @@ void factorial(){
         sum=sum*i;
     }
     printf("sum: %d", sum);
+}*/
+int table(){
+    int n,table=1;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    for(int i=1;i<=10;i++){
+        printf("%d * %d= %d \n",n,i,n*i);
+    }
 }
 
 int main() {
     // Write C code here
     // fibo();
     //sum();
-    factorial();
+    //factorial();
+    table();
     return 0;
 }
